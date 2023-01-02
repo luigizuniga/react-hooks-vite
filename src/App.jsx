@@ -10,6 +10,7 @@ import { FormWithCustomHooks } from './components/useEffect/FormWithCustomHooks'
 
 // Styles
 import './App.css'
+import { MultipleCustomHooks } from './components/useFetch/MultipleCustomHooks'
 
 function App() {
   return (
@@ -20,7 +21,9 @@ function App() {
         {/*<CounterWithCustomHook /> */}
 
         {/* <SimpleForm /> */}
-        <FormWithCustomHooks />
+        {/* <FormWithCustomHooks /> */}
+
+        <MultipleCustomHooks />
       </div>
     </>
   )
