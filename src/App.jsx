@@ -8,9 +8,15 @@ import { CounterWithCustomHook } from './components/useState/CounterWithCustomHo
 import { SimpleForm } from './components/useEffect/SimpleForm'
 import { FormWithCustomHooks } from './components/useEffect/FormWithCustomHooks'
 
+// useFetch
+import { MultipleCustomHooks } from './components/useFetch/MultipleCustomHooks'
+
+//useRef
+import { FocusScreen } from './components/useRef/FocusScreen'
+
 // Styles
 import './App.css'
-import { MultipleCustomHooks } from './components/useFetch/MultipleCustomHooks'
+
 
 function App() {
   return (
@@ -23,7 +29,9 @@ function App() {
         {/* <SimpleForm /> */}
         {/* <FormWithCustomHooks /> */}
 
-        <MultipleCustomHooks />
+        {/* <MultipleCustomHooks /> */}
+
+        <FocusScreen/>
       </div>
     </>
   )
