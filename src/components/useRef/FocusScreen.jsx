@@ -1,8 +1,8 @@
-import React , { useRef } from 'react'
+import React, { useRef } from 'react'
 
 export const FocusScreen = () => {
     const inputNameRef = useRef();
-    
+
     const onClick = () => {
         inputNameRef.current.select();
     }
@@ -11,12 +11,12 @@ export const FocusScreen = () => {
         <>
             <div className='card'>
                 <h2>Focus Screen with hook useRef</h2>
-                <input 
+                <input
                     type="text"
                     placeholder="name"
-                    ref={ inputNameRef }
+                    ref={inputNameRef}
                 />
-                <button onClick={ onClick }>Set Focus</button>
+                <button onClick={onClick}>Set Focus</button>
             </div>
         </>
     )
