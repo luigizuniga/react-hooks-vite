@@ -2,8 +2,6 @@ import { TodoItem } from "./TodoItem"
 
 export const TodoList = ({ todos = [], onDeleteTodo, onToggleTodo }) => {
     return (
-        <>
-            <br />
             <ul className="list-group">
                 {
                     todos.map(todo => (
@@ -12,10 +10,9 @@ export const TodoList = ({ todos = [], onDeleteTodo, onToggleTodo }) => {
                             todo={todo}
                             onDeleteTodo={onDeleteTodo}
                             onToggleTodo={onToggleTodo}
-                        />
+                        />  
                     ))
                 }
             </ul>
-        </>
     )
 }

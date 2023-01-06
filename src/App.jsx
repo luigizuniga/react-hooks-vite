@@ -26,7 +26,6 @@ import { TodoApp } from './components/useReducer/TodoApp'
 // Styles
 import './App.css'
 
-
 function App() {
   return (
     <>

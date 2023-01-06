@@ -17,7 +17,6 @@ export const useTodos = () => {
             type: '[TODO] add Todo',
             payload: todo
         }
-
         dispatch(action)
     }
 
@@ -38,7 +37,7 @@ export const useTodos = () => {
     return {
         todos,
         todosCount: todos.length,
-        pendingTodosCount: todos.filter(todo=> !todo.done).length,
+        pendingTodosCount: todos.filter( todo => !todo.done).length,
         handleNewTodo,
         handleDeleteTodo,
         handleToggleTodo

@@ -7,7 +7,7 @@ export const TodoApp = () => {
     return (
         <>
             <h2>TodoApp: {todosCount}
-                <small> pendientes: {pendingTodosCount}</small></h2>
+                <small> pendientes: { pendingTodosCount }</small></h2>
             <TodoAdd
                 onNewTodo={handleNewTodo} />
             <TodoList
