@@ -19,6 +19,9 @@ import { MemoHook } from './components/useMemo/MemoHook'
 import { CallbackHook } from './components/useMemo/CallbackHook'
 import { Padre } from './components/useMemo/exampleMemo/Padre'
 
+// useReducer Component
+import { TodoApp } from './components/useReducer/TodoApp'
+
 
 // Styles
 import './App.css'
@@ -28,23 +31,7 @@ function App() {
   return (
     <>
       <div className="App">
-        {/* <HooksApp/> */}
-        {/*<CounterApp />*/}
-        {/*<CounterWithCustomHook /> */}
-
-        {/* <SimpleForm /> */}
-        {/* <FormWithCustomHooks /> */}
-
-        {/* <MultipleCustomHooks /> */}
-
-        {/* <FocusScreen/> */}
-
-        {/* <Memorize /> */}
-        {/* <MemoHook/>  */}
-        {/* <CallbackHook /> */}
-        
-        <Padre/>
-
+        < TodoApp />
       </div>
     </>
   )
